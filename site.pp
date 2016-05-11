@@ -5,7 +5,7 @@ node default {
   include ntp, git
 }
 
-node 'node01.example.com', 'node02.example.com' {
+node 'node01.vm.local', 'node02.vm.local' {
 # Test message
   notify { "Debug output on ${hostname} node.": }
 
